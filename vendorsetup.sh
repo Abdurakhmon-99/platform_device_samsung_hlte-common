@@ -1,0 +1,3 @@
+add_lunch_combo dot_hltekor-user
+add_lunch_combo dot_hltekor-userdebug
+add_lunch_combo dot_hltekor-eng
