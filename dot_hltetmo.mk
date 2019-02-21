@@ -17,10 +17,10 @@
 $(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_DEVICE := hltetmo
-PRODUCT_NAME := aosp_hltetmo
+PRODUCT_NAME := dot_hltetmo
