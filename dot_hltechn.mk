@@ -17,10 +17,10 @@
 $(call inherit-product, device/samsung/hltechn/full_hlte.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_DEVICE := hltechn
-PRODUCT_NAME := aosp_hltechn
+PRODUCT_NAME := dot_hltechn

@@ -1,0 +1,3 @@
+add_lunch_combo dot_hltechn-user
+add_lunch_combo dot_hltechn-userdebug
+add_lunch_combo dot_hltechn-eng
